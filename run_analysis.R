@@ -19,7 +19,7 @@ runAnalysis <- function() {
 
   dataDir <- downloadData()
 
-  # Merge the training and the test sets to create one data set.
+  # Merge to create one data set.
 
   readData <- function(path) {
     read.table(filePath(dataDir, path))
